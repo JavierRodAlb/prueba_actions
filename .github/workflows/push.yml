@@ -10,5 +10,5 @@ jobs:
     name: deploy de prueba
     runs-on: ubuntu-latest
     steps:  
-      - run: "Echo: estamos ejecutando nuestro workflow"
+      - run: echo "estamos ejecutando nuestro workflow"
       - uses: actions/setup-go@v3.3.0
